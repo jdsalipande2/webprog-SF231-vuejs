@@ -208,3 +208,10 @@
     font-size: 18px;
     color: var(--primary-color);
   }
+
+  #app {
+    display: inline-block;
+    padding: 10px;
+    font-size: x-large;
+    background-color: lightgreen;
+  }
