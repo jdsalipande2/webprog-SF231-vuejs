@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pink.css">
   <link rel="stylesheet" href="css/images.css">
+  <link rel="stylesheet" href="css/shopping.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -66,9 +67,55 @@
   </div>
 </div>
 
+<div id="app3">
+  <form v-on:submit.prevent="addItem">
+    <p>
+      What do you need? <br>
+      <input type="text" required placeholder="item name.." v-model="itemName">
+    </p>
+    <p>
+      How many? <br>
+      <input type="number" placeholder="number of items.." v-model="itemNumber">
+    </p>
+    <p>
+      Important?
+      <label>
+        <input type="checkbox" v-model="itemImportant">
+        {{ itemImportant }}
+      </label>
+    </p>
+    <button type="submit">Add item</button>
+  </form>
+  <br>
+  <hr>
+
+  <div>
+    <p><strong>Shopping list:</strong></p>
+    <ul id="ulToFind">
+      <li 
+        v-for="item in shoppingList" 
+        v-bind:class="{ impClass: item.important }"
+        v-on:click="item.found=!item.found"
+        v-show="!item.found">
+          {{ item.name }}, {{ item.number}}
+      </li>
+    </ul>
+    <ul id="ulFound">
+      <li 
+        v-for="item in shoppingList" 
+        v-bind:class="{ impClass: item.important }"
+        v-on:click="item.found=!item.found"
+        v-show="item.found">
+          {{ item.name }}, {{ item.number}}
+      </li>
+    </ul>
+  </div>
+</div>
+
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="js/vue.js"></script>
 <script src="js/images.js"></script>
+<script src="js/shopping.js"></script>
 
 </body>
 </html>
