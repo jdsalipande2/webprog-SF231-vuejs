@@ -36,18 +36,10 @@
 <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
     }
 
     .personal-profile {
       max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
@@ -64,7 +56,6 @@
 
     ul {
       list-style-type: square;
-      padding-left: 20px;
       color: #555;
     }
 
@@ -72,14 +63,8 @@
       margin-bottom: 30px;
     }
 
-    .services-section ul {
-      padding-left: 0;
-    }
-
     .services-section li {
-      background-color: #f9f9f9;
       margin: 5px 0;
-      padding: 8px;
       border-radius: 4px;
     }
-  </style>
+</style>
