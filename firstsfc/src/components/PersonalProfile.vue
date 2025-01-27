@@ -4,9 +4,6 @@
     <div class="about-section">
       <h2>About Me</h2>
       <div class="about-content">
-        <div class="about-image">
-          <img src="@/assets/Profile%20Picture.jpg" alt="Janice's Portrait">
-        </div>
         <div class="about-text">
           <p><strong>HELLO!</strong><br><br>
             I am Janice, a second-year college student studying Computer Science with a focus on Cybersecurity and Forensics. I also do freelance work in graphic design, video editing, and social media management.
@@ -26,9 +23,6 @@
       <h2>Education</h2>
       <div class="education-content">
         <div v-for="(education, index) in educationList" :key="index" class="education-card">
-          <div class="education-card-header">
-            <img :src="education.icon" :alt="education.institution">
-          </div>
           <h3>{{ education.degree }}</h3>
           <p>{{ education.year }}</p>
           <p><strong>{{ education.institution }}</strong></p>
@@ -65,14 +59,12 @@ export default {
           degree: 'Senior High School',
           year: '2021 - 2023',
           institution: 'Asia Pacific College',
-          icon: '@/assets/education%20star%201.png',
           awards: ['With High Honors', 'Most Outstanding Student in Mathematics', 'Most Outstanding Student in Science'],
         },
         {
           degree: 'BS Computer Science',
           year: '2023 - 2027',
           institution: 'Asia Pacific College',
-          icon: '@/assets/education%20star%202.png',
           awards: ['Dean\'s Lister (A.Y. 2023 - 2024)'],
         },
       ],
@@ -110,28 +102,6 @@ export default {
 .education-section,
 .experience-section {
   margin-bottom: 40px;
-}
-
-.about-content {
-  display: flex;
-  gap: 20px;
-}
-
-.about-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.education-card,
-.experience-item {
-  background: #f9f9f9;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.education-card-header img {
-  width: 50px;
 }
 
 h2 {
