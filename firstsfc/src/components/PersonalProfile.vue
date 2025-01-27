@@ -1,120 +1,42 @@
-<template>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile</title>
+</head>
+<body>
   <section class="personal-profile">
     <!-- About Section -->
     <div class="about-section">
       <h2>About Me</h2>
-      <div class="about-content">
-        <div class="about-text">
-          <p><strong>HELLO!</strong><br><br>
-            I am Janice, a second-year college student studying Computer Science with a focus on Cybersecurity and Forensics. I also do freelance work in graphic design, video editing, and social media management.
-          </p>
-          <p><strong>Hobbies/Interests:</strong><br>
-            - Watching movies, series, and anime<br>
-            - Trying different cuisines<br>
-            - Walking/Jogging in the morning<br>
-            - Freelance Work
-          </p>
-        </div>
-      </div>
+      <p>Hello! I am Janice, a second-year college student studying Computer Science with a focus on Cybersecurity and Forensics. I also do freelance work in graphic design, video editing, and social media management.</p>
+      <p><strong>Hobbies/Interests:</strong></p>
+      <ul>
+        <li>Watching movies, series, and anime</li>
+        <li>Trying different cuisines</li>
+        <li>Walking/Jogging in the morning</li>
+        <li>Freelance Work</li>
+      </ul>
     </div>
 
     <!-- Education Section -->
     <div class="education-section">
       <h2>Education</h2>
-      <div class="education-content">
-        <div v-for="(education, index) in educationList" :key="index" class="education-card">
-          <h3>{{ education.degree }}</h3>
-          <p>{{ education.year }}</p>
-          <p><strong>{{ education.institution }}</strong></p>
-          <p><strong>Awards:</strong></p>
-          <ul>
-            <li v-for="award in education.awards" :key="award">{{ award }}</li>
-          </ul>
-        </div>
-      </div>
+      <p><strong>Senior High School</strong> (2021 - 2023) - Asia Pacific College</p>
+      <p><strong>BS Computer Science</strong> (2023 - 2027) - Asia Pacific College</p>
     </div>
 
-    <!-- Experience Section -->
-    <div class="experience-section">
-      <h2>Experience</h2>
-      <div v-for="(job, index) in experienceList" :key="index" class="experience-item">
-        <h3>{{ job.title }}</h3>
-        <p>{{ job.date }}</p>
-        <p><strong>{{ job.company }}</strong></p>
-        <ul>
-          <li v-for="(task, taskIndex) in job.tasks" :key="taskIndex">{{ task }}</li>
-        </ul>
-      </div>
+    <!-- Services Section -->
+    <div class="services-section">
+      <h2>Services</h2>
+      <ul>
+        <li>Graphic Design</li>
+        <li>Video Editing</li>
+        <li>Social Media Management</li>
+        <li>UX/UI Design</li>
+      </ul>
     </div>
   </section>
-</template>
-
-<script>
-export default {
-  name: 'PersonalProfile',
-  data() {
-    return {
-      educationList: [
-        {
-          degree: 'Senior High School',
-          year: '2021 - 2023',
-          institution: 'Asia Pacific College',
-          awards: ['With High Honors', 'Most Outstanding Student in Mathematics', 'Most Outstanding Student in Science'],
-        },
-        {
-          degree: 'BS Computer Science',
-          year: '2023 - 2027',
-          institution: 'Asia Pacific College',
-          awards: ['Dean\'s Lister (A.Y. 2023 - 2024)'],
-        },
-      ],
-      experienceList: [
-        {
-          title: 'UX/UI Designer',
-          date: 'August 2024 - November 2024',
-          company: 'APC Ramket (E-commerce Website and Mobile App)',
-          tasks: [
-            'Led the UX/UI design process for the e-commerce platform.',
-            'Designed wireframes, mockups, and high-fidelity prototypes for both the website and mobile app.',
-          ],
-        },
-        {
-          title: 'Video Editor & Social Media Manager',
-          date: 'August 2024 - November 2024',
-          company: 'DreamBuildsLA',
-          tasks: [
-            'Edited Instagram Reels showcasing real estate to captivate audiences.',
-            'Managed the Instagram account to grow followers and engagement.',
-          ],
-        },
-      ],
-    };
-  },
-};
-</script>
-
-<style scoped>
-.personal-profile {
-  padding: 20px;
-}
-
-.about-section,
-.education-section,
-.experience-section {
-  margin-bottom: 40px;
-}
-
-h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
-}
-
-ul li {
-  margin-bottom: 5px;
-}
-</style>
+</body>
+</html>
