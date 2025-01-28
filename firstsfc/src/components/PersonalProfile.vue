@@ -3,7 +3,7 @@
       <!-- Navigation -->
       <nav class="navbar">
          <a href="#" class="logo">
-         <img src="assets/jmds%20logo%20black%20version.png" alt="My Logo" class="logo-img"> 
+         <img src="./assets/jmds%20logo%20black%20version.png" alt="My Logo" class="logo-img"> 
          </a>
          <ul class="nav-menu">
             <li><a href="#about">ABOUT</a></li>
@@ -17,7 +17,7 @@
       <header class="masthead">
          <div class="video-background">
             <video autoplay muted loop class="video-bg">
-               <source src="assets/masthead.mp4" type="video/mp4">
+               <source src="./assets/masthead.mp4" type="video/mp4">
             </video>
          </div>
          <div class="masthead-content">
@@ -26,12 +26,12 @@
             <div class="icon-buttons">
                <a href="https://www.linkedin.com/in/janice-maxene-salipande-8aa856216" target="_blank">
                   <div class="icon-circle">
-                     <img src="assets/linkedin%20icon.png" alt="LinkedIn Icon">
+                     <img src="./assets/linkedin%20icon.png" alt="LinkedIn Icon">
                   </div>
                </a>
                <a href="mailto:jdsalipande2@student.apc.edu.ph">
                   <div class="icon-circle">
-                     <img src="assets/mail%20icon.png" alt="Mail Icon">
+                     <img src="./assets/mail%20icon.png" alt="Mail Icon">
                   </div>
                </a>
             </div>
@@ -43,7 +43,7 @@
             <h2>About</h2>
             <div class="about-content">
                <div class="about-image">
-                  <img src="assets/Profile%20Picture.jpg" alt="Janice's Portrait">
+                  <img src="./assets/Profile%20Picture.jpg" alt="Janice's Portrait">
                </div>
                <div class="about-text">
                   <p><strong>HELLO!</strong><br><br>
@@ -66,7 +66,7 @@
             <div class="education-content">
                <div class="education-card">
                   <div class="education-card-header">
-                     <img src="assets/education%20star%201.png" alt="Asia Pacific College Icon"> 
+                     <img src="./assets/education%20star%201.png" alt="Asia Pacific College Icon"> 
                   </div>
                   <h3>SENIOR HIGH SCHOOL</h3>
                   <p>2021 - 2023</p>
@@ -79,7 +79,7 @@
                </div>
                <div class="education-card">
                   <div class="education-card-header">
-                     <img src="assets/education%20star%202.png" alt="Asia Pacific College Icon"> 
+                     <img src="./assets/education%20star%202.png" alt="Asia Pacific College Icon"> 
                   </div>
                   <h3>BS COMPUTER SCIENCE</h3>
                   <p>2023 - 2027</p>
@@ -89,7 +89,7 @@
                </div>
                <div class="education-card">
                   <div class="education-card-header">
-                     <img src="assets/education%20star%203.png" alt="Pasay City National Science High School Icon"> 
+                     <img src="./assets/education%20star%203.png" alt="Pasay City National Science High School Icon"> 
                   </div>
                   <h3>JUNIOR HIGH SCHOOL</h3>
                   <p>2017 - 2021</p>
@@ -147,25 +147,25 @@
                   <h3>Programming</h3>
                   <div class="tools-list">
                      <div class="tool-item">
-                        <img src="assets/Python.png" alt="Python">
+                        <img src="./assets/Python.png" alt="Python">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/Java.png" alt="Java">
+                        <img src="./assets/Java.png" alt="Java">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/HTML.png" alt="HTML">
+                        <img src="./assets/HTML.png" alt="HTML">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/CSS.png" alt="CSS">
+                        <img src="./assets/CSS.png" alt="CSS">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/MySQL.png" alt="MySQL">
+                        <img src="./assets/MySQL.png" alt="MySQL">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/VSC.png" alt="Visual Studio Code">
+                        <img src="./assets/VSC.png" alt="Visual Studio Code">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/GitHub.png" alt="GitHub">
+                        <img src="./assets/GitHub.png" alt="GitHub">
                      </div>
                   </div>
                </div>
@@ -174,16 +174,16 @@
                   <h3>Graphic Design & Video Editing</h3>
                   <div class="tools-list">
                      <div class="tool-item">
-                        <img src="assets/Canva.png" alt="Canva">
+                        <img src="./assets/Canva.png" alt="Canva">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/Figma.png" alt="Figma">
+                        <img src="./assets/Figma.png" alt="Figma">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/CapCut.png" alt="CapCut">
+                        <img src="./assets/CapCut.png" alt="CapCut">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/Filmora.png" alt="Filmora">
+                        <img src="./assets/Filmora.png" alt="Filmora">
                      </div>
                   </div>
                </div>
@@ -192,10 +192,10 @@
                   <h3>Administrative</h3>
                   <div class="tools-list">
                      <div class="tool-item">
-                        <img src="assets/MS%20Office.png" alt="Microsoft Office">
+                        <img src="./assets/MS%20Office.png" alt="Microsoft Office">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/G%20Suite.png" alt="Google Suite">
+                        <img src="./assets/G%20Suite.png" alt="Google Suite">
                      </div>
                   </div>
                </div>
