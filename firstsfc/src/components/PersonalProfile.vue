@@ -3,7 +3,7 @@
     <!-- Navigation -->
     <nav class="navbar">
       <a href="#" class="logo">
-        <img src="assets/jmds%20logo%20black%20version.png" alt="My Logo" class="logo-img">
+        <img src="/assets/jmds%20logo%20black%20version.png" alt="My Logo" class="logo-img">
       </a>
       <ul class="nav-menu">
         <li><a href="#about" @click.prevent="smoothScroll('#about')">ABOUT</a></li>
@@ -18,7 +18,7 @@
     <header class="masthead">
       <div class="video-background">
         <video autoplay muted loop class="video-bg">
-          <source src="assets/masthead.mp4" type="video/mp4">
+          <source src="/assets/masthead.mp4" type="video/mp4">
         </video>
       </div>
       <div class="masthead-content">
@@ -27,12 +27,12 @@
         <div class="icon-buttons">
           <a href="https://www.linkedin.com/in/janice-maxene-salipande-8aa856216" target="_blank">
             <div class="icon-circle">
-              <img src="assets/linkedin%20icon.png" alt="LinkedIn Icon">
+              <img src="/assets/linkedin%20icon.png" alt="LinkedIn Icon">
             </div>
           </a>
           <a href="mailto:jdsalipande2@student.apc.edu.ph">
             <div class="icon-circle">
-              <img src="assets/mail%20icon.png" alt="Mail Icon">
+              <img src="/assets/mail%20icon.png" alt="Mail Icon">
             </div>
           </a>
         </div>
@@ -45,7 +45,7 @@
         <h2>About</h2>
         <div class="about-content">
           <div class="about-image">
-            <img src="assets/Profile%20Picture.jpg" alt="Janice's Portrait">
+            <img src="/assets/Profile%20Picture.jpg" alt="Janice's Portrait">
           </div>
           <div class="about-text">
             <p><strong>HELLO!</strong><br><br>
