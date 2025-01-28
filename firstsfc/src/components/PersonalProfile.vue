@@ -5,14 +5,14 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Janice Salipande | Personal Website</title>
-      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="home/css/styles.css">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
    </head>
    <body>
       <!-- Navigation -->
       <nav class="navbar">
          <a href="#" class="logo">
-         <img src="assets/jmds%20logo%20black%20version.png" alt="My Logo" class="logo-img"> 
+         <img src="home/assets/jmds%20logo%20black%20version.png" alt="My Logo" class="logo-img"> 
          </a>
          <ul class="nav-menu">
             <li><a href="#about">ABOUT</a></li>
@@ -26,7 +26,7 @@
       <header class="masthead">
          <div class="video-background">
             <video autoplay muted loop class="video-bg">
-               <source src="assets/masthead.mp4" type="video/mp4">
+               <source src="home/assets/masthead.mp4" type="video/mp4">
             </video>
          </div>
          <div class="masthead-content">
@@ -35,12 +35,12 @@
             <div class="icon-buttons">
                <a href="https://www.linkedin.com/in/janice-maxene-salipande-8aa856216" target="_blank">
                   <div class="icon-circle">
-                     <img src="assets/linkedin%20icon.png" alt="LinkedIn Icon">
+                     <img src="home/assets/linkedin%20icon.png" alt="LinkedIn Icon">
                   </div>
                </a>
                <a href="mailto:jdsalipande2@student.apc.edu.ph">
                   <div class="icon-circle">
-                     <img src="assets/mail%20icon.png" alt="Mail Icon">
+                     <img src="home/assets/mail%20icon.png" alt="Mail Icon">
                   </div>
                </a>
             </div>
@@ -52,7 +52,7 @@
             <h2>About</h2>
             <div class="about-content">
                <div class="about-image">
-                  <img src="assets/Profile%20Picture.jpg" alt="Janice's Portrait">
+                  <img src="home/assets/Profile%20Picture.jpg" alt="Janice's Portrait">
                </div>
                <div class="about-text">
                   <p><strong>HELLO!</strong><br><br>
@@ -75,7 +75,7 @@
             <div class="education-content">
                <div class="education-card">
                   <div class="education-card-header">
-                     <img src="assets/education%20star%201.png" alt="Asia Pacific College Icon"> 
+                     <img src="home/assets/education%20star%201.png" alt="Asia Pacific College Icon"> 
                   </div>
                   <h3>SENIOR HIGH SCHOOL</h3>
                   <p>2021 - 2023</p>
@@ -88,7 +88,7 @@
                </div>
                <div class="education-card">
                   <div class="education-card-header">
-                     <img src="assets/education%20star%202.png" alt="Asia Pacific College Icon"> 
+                     <img src="home/assets/education%20star%202.png" alt="Asia Pacific College Icon"> 
                   </div>
                   <h3>BS COMPUTER SCIENCE</h3>
                   <p>2023 - 2027</p>
@@ -98,7 +98,7 @@
                </div>
                <div class="education-card">
                   <div class="education-card-header">
-                     <img src="assets/education%20star%203.png" alt="Pasay City National Science High School Icon"> 
+                     <img src="home/assets/education%20star%203.png" alt="Pasay City National Science High School Icon"> 
                   </div>
                   <h3>JUNIOR HIGH SCHOOL</h3>
                   <p>2017 - 2021</p>
@@ -156,25 +156,25 @@
                   <h3>Programming</h3>
                   <div class="tools-list">
                      <div class="tool-item">
-                        <img src="assets/Python.png" alt="Python">
+                        <img src="home/assets/Python.png" alt="Python">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/Java.png" alt="Java">
+                        <img src="home/assets/Java.png" alt="Java">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/HTML.png" alt="HTML">
+                        <img src="home/assets/HTML.png" alt="HTML">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/CSS.png" alt="CSS">
+                        <img src="home/assets/CSS.png" alt="CSS">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/MySQL.png" alt="MySQL">
+                        <img src="home/assets/MySQL.png" alt="MySQL">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/VSC.png" alt="Visual Studio Code">
+                        <img src="home/assets/VSC.png" alt="Visual Studio Code">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/GitHub.png" alt="GitHub">
+                        <img src="home/assets/GitHub.png" alt="GitHub">
                      </div>
                   </div>
                </div>
@@ -183,16 +183,16 @@
                   <h3>Graphic Design & Video Editing</h3>
                   <div class="tools-list">
                      <div class="tool-item">
-                        <img src="assets/Canva.png" alt="Canva">
+                        <img src="home/assets/Canva.png" alt="Canva">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/Figma.png" alt="Figma">
+                        <img src="home/assets/Figma.png" alt="Figma">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/CapCut.png" alt="CapCut">
+                        <img src="home/assets/CapCut.png" alt="CapCut">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/Filmora.png" alt="Filmora">
+                        <img src="home/assets/Filmora.png" alt="Filmora">
                      </div>
                   </div>
                </div>
@@ -201,10 +201,10 @@
                   <h3>Administrative</h3>
                   <div class="tools-list">
                      <div class="tool-item">
-                        <img src="assets/MS%20Office.png" alt="Microsoft Office">
+                        <img src="home/assets/MS%20Office.png" alt="Microsoft Office">
                      </div>
                      <div class="tool-item">
-                        <img src="assets/G%20Suite.png" alt="Google Suite">
+                        <img src="home/assets/G%20Suite.png" alt="Google Suite">
                      </div>
                   </div>
                </div>
@@ -246,7 +246,7 @@
             <div class="portfolio-container">
                <!-- Portfolio Item 1 -->
                <div class="portfolio-item">
-                  <img src="assets/APC%20Ramket%20Website.png" alt="APC Ramket Website" data-description="
+                  <img src="home/assets/APC%20Ramket%20Website.png" alt="APC Ramket Website" data-description="
                      <p class='portfolio-title'>APC RAMKET WEBSITE</p>
                      <p class='portfolio-date'>August - November 2024</p>
                      <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
@@ -255,7 +255,7 @@
                </div>
                <!-- Portfolio Item 2 -->
                <div class="portfolio-item">
-                  <img src="assets/APC%20Ramket%20Mobile%20App.png" alt="APC Ramket Mobile App" data-description="
+                  <img src="home/assets/APC%20Ramket%20Mobile%20App.png" alt="APC Ramket Mobile App" data-description="
                      <p class='portfolio-title'>APC RAMKET MOBILE APP</p>
                      <p class='portfolio-date'>August - November 2024</p>
                      <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
@@ -264,7 +264,7 @@
                </div>
                <!-- Portfolio Item 3 -->
                <div class="portfolio-item">
-                  <img src="assets/dreambuildsla.png" alt="dreambuildsla" data-description="
+                  <img src="home/assets/dreambuildsla.png" alt="dreambuildsla" data-description="
                      <p class='portfolio-title'>@dreambuildsla on IG</p>
                      <p class='portfolio-date'>August - November 2024</p>
                      <p class='portfolio-description'>Instagram Reels showcasing real estate located in West Los Angeles, CA to captivate audiences and drive inquiries.</p>
@@ -272,7 +272,7 @@
                </div>
                <!-- Portfolio Item 4 -->
                <div class="portfolio-item">
-                  <img src="assets/athletezerous.png" alt="athletezerous" data-description="
+                  <img src="home/assets/athletezerous.png" alt="athletezerous" data-description="
                      <p class='portfolio-title'>@athletezerous on IG</p>
                      <p class='portfolio-date'>April - June 2024</p>
                      <p class='portfolio-description'>Instagram Reels enhancing social media presence and audience engagement.</p>
@@ -280,7 +280,7 @@
                </div>
                <!-- Portfolio Item 5 -->
                <div class="portfolio-item">
-                  <img src="assets/Instagram%20Feed%20Posts.png" alt="Instagram Feed Posts" data-description="
+                  <img src="home/assets/Instagram%20Feed%20Posts.png" alt="Instagram Feed Posts" data-description="
                      <p class='portfolio-title'>Instagram Feed Posts for</p>
                      <p class='portfolio-course'>LocalPro Renovations</p>
                      <p class='portfolio-course'>SuppDog</p>
@@ -291,7 +291,7 @@
                </div>
                <!-- Portfolio Item 6 -->
                <div class="portfolio-item">
-                  <img src="assets/Marksman.png" alt="Marksman Grade Tracking System" data-description="
+                  <img src="home/assets/Marksman.png" alt="Marksman Grade Tracking System" data-description="
                      <p class='portfolio-title'>MARKSMAN GRADE TRACKING SYSTEM</p>
                      <p class='portfolio-date'>May - June 2023</p>
                      <p class='portfolio-course'>APC Senior High School Bootcamp</p>
@@ -365,24 +365,24 @@
       <!-- Footer Section -->
       <footer class="footer">
          <div class="footer-container">
-            <img src="assets/jmds%20logo%20white%20version.png" alt="My Logo" class="footer-logo"> 
+            <img src="home/assets/jmds%20logo%20white%20version.png" alt="My Logo" class="footer-logo"> 
             <p class="footer-text">© 2025 Janice Maxene D. Salipande | All Rights Reserved.</p>
             <div class="footer-socials">
                <a href="https://www.linkedin.com/in/janice-maxene-salipande-8aa856216" target="_blank" class="social-icon">
                   <div class="social-circle">
-                     <img src="assets/linkedin%20icon.png" alt="LinkedIn Icon" class="social-img">
+                     <img src="home/assets/linkedin%20icon.png" alt="LinkedIn Icon" class="social-img">
                   </div>
                </a>
                <a href="mailto:jdsalipande2@student.apc.edu.ph" target="_blank" class="social-icon">
                   <div class="social-circle">
-                     <img src="assets/mail%20icon.png" alt="Mail Icon" class="social-img">
+                     <img src="home/assets/mail%20icon.png" alt="Mail Icon" class="social-img">
                   </div>
                </a>
             </div>
          </div>
       </footer>
       <!-- Scripts -->
-      <script src="js/main.js"></script>
+      <script src="home/js/main.js"></script>
    </body>
 </html>
 </template>
