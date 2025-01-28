@@ -382,13 +382,13 @@
          </div>
       </footer>
       <!-- Scripts -->
-      <script src="js/scripts.js"></script>
+      <script src="js/main.js"></script>
    </body>
 </html>
 </template>
 
 <style>
-    /* General Variables */
+/* General Variables */
 :root {
 	--primary-color: #333;
 	--secondary-color: #f9f9f9;
