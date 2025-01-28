@@ -1,12 +1,19 @@
-<script></script>
-
 <template>
-   <h1>Food</h1>
-  <personal-profile/> <br>
-  <food-item/> 
-  <food-item2/>
-  <food-item/> 
-  <food-item2/> 
+  <div>
+    <PersonalProfile />
+  </div>
 </template>
 
-<style></style>
+<script>
+import PersonalProfile from '.src/components/PersonalProfile.vue';
+
+export default {
+  components: {
+    PersonalProfile
+  }
+};
+</script>
+
+<style>
+/* Your global styles here */
+</style>
