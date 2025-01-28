@@ -18,7 +18,7 @@
     <header class="masthead">
       <div class="video-background">
         <video autoplay muted loop class="video-bg">
-          <source src="/static/assets/masthead.mp4" type="video/mp4">
+          <source src="/assets/masthead.mp4" type="video/mp4">
         </video>
       </div>
       <div class="masthead-content">
