@@ -18,7 +18,7 @@
     <header class="masthead">
       <div class="video-background">
         <video autoplay muted loop class="video-bg">
-          <source src="/masthead.mp4" type="video/mp4">
+          <source src="/static/assets/masthead.mp4" type="video/mp4">
         </video>
       </div>
       <div class="masthead-content">
@@ -40,7 +40,7 @@
     </header>
 
     <!-- About Section -->
-    <div class="fade-in" v-show="fadeInVisible">
+    <div class="fade-in">
       <section class="about-section" id="about">
         <h2>About</h2>
         <div class="about-content">
@@ -67,36 +67,27 @@
 
 <script>
 export default {
-  data() {
-    return {
-      fadeInVisible: false
-    };
-  },
-  methods: {
-    smoothScroll(target) {
-      document.querySelector(target).scrollIntoView({
-        behavior: "smooth"
-      });
-    },
-    handleScroll() {
-      const aboutSection = document.querySelector(".fade-in");
-      if (!aboutSection) return;
-      const rect = aboutSection.getBoundingClientRect();
-      this.fadeInVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
-    }
-  },
   mounted() {
-    window.addEventListener("scroll", this.handleScroll);
-    this.handleScroll();
-  },
-  beforeUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-in-visible");
+          }
+        });
+      },
+      { threshold: 0.2 } 
+    );
+
+    document.querySelectorAll(".fade-in").forEach((el) => {
+      observer.observe(el);
+    });
   }
 };
 </script>
 
 <style scoped>
-    /* General Variables */
+/* General Variables */
 :root {
 	--primary-color: #333;
 	--secondary-color: #f9f9f9;
@@ -339,5 +330,16 @@ h2 {
 .about-text strong {
 	font-size: 18px;
 	color: var(--primary-color);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 </style>
