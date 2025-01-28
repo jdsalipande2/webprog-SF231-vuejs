@@ -403,8 +403,6 @@
    import instagramFeedPosts from '@/assets/Instagram%20Feed%20Posts.png';
    import marksmanGradeTracking from '@/assets/Marksman.png';
    import jmdsLogoWhite from '@/assets/jmds%20logo%20white%20version.png';
-   import linkedinIcon from '@/assets/linkedin%20icon.png';
-   import mailIcon from '@/assets/mail%20icon.png';
 </script>
 <style scoped>
    @import '@/css/styles.css';
