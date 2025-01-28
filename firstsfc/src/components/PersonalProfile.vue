@@ -372,7 +372,6 @@
          </div>
       </footer>
       <!-- Scripts -->
-      </body>
    </div>
 </template>
 <script setup>
