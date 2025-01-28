@@ -18,7 +18,7 @@
     <header class="masthead">
       <div class="video-background">
         <video autoplay muted loop class="video-bg">
-          <source src="/assets/masthead.mp4" type="video/mp4">
+          <source src="/masthead.mp4" type="video/mp4">
         </video>
       </div>
       <div class="masthead-content">
@@ -82,7 +82,7 @@ export default {
       const aboutSection = document.querySelector(".fade-in");
       if (!aboutSection) return;
       const rect = aboutSection.getBoundingClientRect();
-      this.fadeInVisible = rect.top < window.innerHeight && rect.bottom > 0;
+      this.fadeInVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
     }
   },
   mounted() {
