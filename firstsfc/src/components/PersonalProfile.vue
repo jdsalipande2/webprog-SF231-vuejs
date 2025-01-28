@@ -1,5 +1,5 @@
 <template>
-<div>
+   <div>
       <nav class="navbar">
          <a href="#" class="logo">
          <img :src="logo" alt="My Logo" class="logo-img">
@@ -16,7 +16,7 @@
       <header class="masthead">
          <div class="video-background">
             <video autoplay muted loop class="video-bg">
-                <source :src="mastheadVideo" type="video/mp4">
+               <source :src="mastheadVideo" type="video/mp4">
             </video>
          </div>
          <div class="masthead-content">
@@ -158,7 +158,7 @@
                         <img :src="cssLogo" alt="CSS">
                      </div>
                      <div class="tool-item">
-                          <img :src="mysqlLogo" alt="MySQL">
+                        <img :src="mysqlLogo" alt="MySQL">
                      </div>
                      <div class="tool-item">
                         <img :src="vscLogo" alt="Visual Studio Code">
@@ -237,56 +237,56 @@
                <!-- Portfolio Item 1 -->
                <div class="portfolio-item">
                   <img :src="apcRamketWebsite" alt="APC Ramket Website" :data-description="`
-    			<p class='portfolio-title'>APC RAMKET WEBSITE</p>
-    			<p class='portfolio-date'>August - November 2024</p>
-    			<p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
-    			<p class='portfolio-description'>An e-commerce platform where we crafted the user interface to ensure a seamless and intuitive shopping experience for buying and selling products made by the APC community.</p>
-  			`">
+                     <p class='portfolio-title'>APC RAMKET WEBSITE</p>
+                     <p class='portfolio-date'>August - November 2024</p>
+                     <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
+                     <p class='portfolio-description'>An e-commerce platform where we crafted the user interface to ensure a seamless and intuitive shopping experience for buying and selling products made by the APC community.</p>
+                     `">
                </div>
                <!-- Portfolio Item 2 -->
                <div class="portfolio-item">
                   <img :src="apcRamketMobileApp" alt="APC Ramket Mobile App" :data-description="`
-    			<p class='portfolio-title'>APC RAMKET MOBILE APP</p>
-    			<p class='portfolio-date'>August - November 2024</p>
-    			<p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
-    			<p class='portfolio-description'>A mobile app designed to complement the e-commerce platform, where we focused on creating a user-friendly interface for easy navigation and seamless transactions on-the-go for APC students.</p>
-  			`">
+                     <p class='portfolio-title'>APC RAMKET MOBILE APP</p>
+                     <p class='portfolio-date'>August - November 2024</p>
+                     <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
+                     <p class='portfolio-description'>A mobile app designed to complement the e-commerce platform, where we focused on creating a user-friendly interface for easy navigation and seamless transactions on-the-go for APC students.</p>
+                     `">
                </div>
                <!-- Portfolio Item 3 -->
                <div class="portfolio-item">
                   <img src="@/assets/dreambuildsla.png" alt="dreambuildsla" data-description="
-                     	<p class='portfolio-title'>@dreambuildsla on IG</p>
-                     	<p class='portfolio-date'>August - November 2024</p>
-                     	<p class='portfolio-description'>Instagram Reels showcasing real estate located in West Los Angeles, CA to captivate audiences and drive inquiries.</p>
-                     	">
+                     <p class='portfolio-title'>@dreambuildsla on IG</p>
+                     <p class='portfolio-date'>August - November 2024</p>
+                     <p class='portfolio-description'>Instagram Reels showcasing real estate located in West Los Angeles, CA to captivate audiences and drive inquiries.</p>
+                     ">
                </div>
                <!-- Portfolio Item 4 -->
                <div class="portfolio-item">
                   <img :src="athletezerous" alt="athletezerous" :data-description="`
-    			<p class='portfolio-title'>@athletezerous on IG</p>
-    			<p class='portfolio-date'>April - June 2024</p>
-    			<p class='portfolio-description'>Instagram Reels enhancing social media presence and audience engagement.</p>
-  			`">
+                     <p class='portfolio-title'>@athletezerous on IG</p>
+                     <p class='portfolio-date'>April - June 2024</p>
+                     <p class='portfolio-description'>Instagram Reels enhancing social media presence and audience engagement.</p>
+                     `">
                </div>
                <!-- Portfolio Item 5 -->
                <div class="portfolio-item">
                   <img :src="instagramFeedPosts" alt="Instagram Feed Posts" :data-description="`
-    			<p class='portfolio-title'>Instagram Feed Posts for</p>
-    			<p class='portfolio-course'>LocalPro Renovations</p>
-    			<p class='portfolio-course'>SuppDog</p>
-    			<p class='portfolio-course'>Bayside Endermologie</p>
-    			<p class='portfolio-course'>Vasavi Kumar</p>
-    			<p class='portfolio-course'>Biohackk</p>
-  			`">
+                     <p class='portfolio-title'>Instagram Feed Posts for</p>
+                     <p class='portfolio-course'>LocalPro Renovations</p>
+                     <p class='portfolio-course'>SuppDog</p>
+                     <p class='portfolio-course'>Bayside Endermologie</p>
+                     <p class='portfolio-course'>Vasavi Kumar</p>
+                     <p class='portfolio-course'>Biohackk</p>
+                     `">
                </div>
                <!-- Portfolio Item 6 -->
                <div class="portfolio-item">
-                 <img :src="marksmanGradeTracking" alt="Marksman Grade Tracking System" :data-description="`
-    			<p class='portfolio-title'>MARKSMAN GRADE TRACKING SYSTEM</p>
-    			<p class='portfolio-date'>May - June 2023</p>
-    			<p class='portfolio-course'>APC Senior High School Bootcamp</p>
-    			<p class='portfolio-description'>A web application conceptualized and designed to help students track their grades, with a focus on intuitive user flow and a clean, efficient interface for seamless grade management.</p>
-  			`">
+                  <img :src="marksmanGradeTracking" alt="Marksman Grade Tracking System" :data-description="`
+                     <p class='portfolio-title'>MARKSMAN GRADE TRACKING SYSTEM</p>
+                     <p class='portfolio-date'>May - June 2023</p>
+                     <p class='portfolio-course'>APC Senior High School Bootcamp</p>
+                     <p class='portfolio-description'>A web application conceptualized and designed to help students track their grades, with a focus on intuitive user flow and a clean, efficient interface for seamless grade management.</p>
+                     `">
                </div>
             </div>
          </section>
@@ -355,7 +355,7 @@
       <!-- Footer Section -->
       <footer class="footer">
          <div class="footer-container">
-              <img :src="jmdsLogoWhite" alt="My Logo" class="footer-logo">
+            <img :src="jmdsLogoWhite" alt="My Logo" class="footer-logo">
             <p class="footer-text">© 2025 Janice Maxene D. Salipande | All Rights Reserved.</p>
             <div class="footer-socials">
                <a href="https://www.linkedin.com/in/janice-maxene-salipande-8aa856216" target="_blank" class="social-icon">
@@ -372,44 +372,41 @@
          </div>
       </footer>
       <!-- Scripts -->
-     
-   </body>
-</div>
+      </body>
+   </div>
 </template>
-
 <script setup>
-import logo from '@/assets/jmds_logo_black_version.png';
-import mastheadVideo from '@/assets/masthead.mp4';
-import linkedinIcon from '@/assets/linkedin_icon.png';
-import mailIcon from '@/assets/mail_icon.png';
-import profilePicture from '@/assets/Profile Picture.jpg';
-import educationStar from '@/assets/education star 1.png';
-import educationStar2 from '@/assets/education star 2.png';
-import educationStar3 from '@/assets/education star 3.png';
-import pythonLogo from '@/assets/Python.png';
-import javaLogo from '@/assets/Java.png';
-import htmlLogo from '@/assets/HTML.png';
-import cssLogo from '@/assets/CSS.png';
-import mysqlLogo from '@/assets/MySQL.png';
-import vscLogo from '@/assets/VSC.png';
-import githubLogo from '@/assets/GitHub.png';
-import canvaLogo from '@/assets/Canva.png';
-import figmaLogo from '@/assets/Figma.png';
-import capcutLogo from '@/assets/CapCut.png';
-import filmoraLogo from '@/assets/Filmora.png';
-import msOfficeLogo from '@/assets/MS%20Office.png';
-import gSuiteLogo from '@/assets/G%20Suite.png';
-import apcRamketWebsite from '@/assets/APC%20Ramket%20Website.png';
-import apcRamketMobileApp from '@/assets/APC%20Ramket%20Mobile%20App.png';
-import dreambuildsla from '@/assets/dreambuildsla.png';
-import athletezerous from '@/assets/athletezerous.png';
-import instagramFeedPosts from '@/assets/Instagram%20Feed%20Posts.png';
-import marksmanGradeTracking from '@/assets/Marksman.png';
-import jmdsLogoWhite from '@/assets/jmds%20logo%20white%20version.png';
-import linkedinIcon from '@/assets/linkedin%20icon.png';
-import mailIcon from '@/assets/mail%20icon.png';
+   import logo from '@/assets/jmds_logo_black_version.png';
+   import mastheadVideo from '@/assets/masthead.mp4';
+   import linkedinIcon from '@/assets/linkedin_icon.png';
+   import mailIcon from '@/assets/mail_icon.png';
+   import profilePicture from '@/assets/Profile Picture.jpg';
+   import educationStar from '@/assets/education star 1.png';
+   import educationStar2 from '@/assets/education star 2.png';
+   import educationStar3 from '@/assets/education star 3.png';
+   import pythonLogo from '@/assets/Python.png';
+   import javaLogo from '@/assets/Java.png';
+   import htmlLogo from '@/assets/HTML.png';
+   import cssLogo from '@/assets/CSS.png';
+   import mysqlLogo from '@/assets/MySQL.png';
+   import vscLogo from '@/assets/VSC.png';
+   import githubLogo from '@/assets/GitHub.png';
+   import canvaLogo from '@/assets/Canva.png';
+   import figmaLogo from '@/assets/Figma.png';
+   import capcutLogo from '@/assets/CapCut.png';
+   import filmoraLogo from '@/assets/Filmora.png';
+   import msOfficeLogo from '@/assets/MS%20Office.png';
+   import gSuiteLogo from '@/assets/G%20Suite.png';
+   import apcRamketWebsite from '@/assets/APC%20Ramket%20Website.png';
+   import apcRamketMobileApp from '@/assets/APC%20Ramket%20Mobile%20App.png';
+   import dreambuildsla from '@/assets/dreambuildsla.png';
+   import athletezerous from '@/assets/athletezerous.png';
+   import instagramFeedPosts from '@/assets/Instagram%20Feed%20Posts.png';
+   import marksmanGradeTracking from '@/assets/Marksman.png';
+   import jmdsLogoWhite from '@/assets/jmds%20logo%20white%20version.png';
+   import linkedinIcon from '@/assets/linkedin%20icon.png';
+   import mailIcon from '@/assets/mail%20icon.png';
 </script>
-	      
 <style scoped>
-@import '@/css/styles.css';
+   @import '@/css/styles.css';
 </style>
