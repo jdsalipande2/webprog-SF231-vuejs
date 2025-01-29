@@ -274,46 +274,115 @@
             <div class="lightbox-description" id="lightbox-description"></div>
          </div>
       </div>
+      <!-- Contact Section -->
+      <div class="fade-in">
+         <div id="app">
+            <!-- Vue app here -->
+            <section class="contact" id="contact">
+               <div class="contact-container">
+                  <h2>SEND US YOUR FEEDBACK!</h2>
+                  <p>What do you think of my website?</p>
+                  <!-- Contact Form -->
+                  <form v-on:submit.prevent="submitForm" class="contact-form">
+                     <!-- Input for Name -->
+                     <input 
+                        type="text" 
+                        v-model="name" 
+                        placeholder="Full Name" 
+                        required 
+                        aria-label="Full Name"
+                        >
+                     <!-- Textarea for Message -->
+                     <textarea 
+                        v-model="message" 
+                        placeholder="Message" 
+                        rows="5" 
+                        required 
+                        aria-label="Message"
+                        ></textarea>
+                     <!-- Submit Button -->
+                     <button 
+                        type="submit" 
+                        class="send-btn" 
+                        aria-label="Send Message"
+                        >
+                     SEND MESSAGE
+                     </button>
+                  </form>
+                  <!-- Display Submitted Data -->
+                  <div v-if="submitted" class="submitted-container">
+                     <h3>Thank you, {{ name }}!</h3>
+                     <p>Your message: {{ message }}</p>
+                     <button 
+                        class="reset-btn" 
+                        @click="resetForm" 
+                        aria-label="Submit Another Message"
+                        >
+                     Submit Another
+                     </button>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
    </div>
 </template>
 
 <script>
-// HTML DOM (for scroll smooth behavior and fade-in elements)
-document.querySelectorAll('.nav-menu a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        const href = this.getAttribute('href');
-        if (href.startsWith('#')) {
-            e.preventDefault();
-            document.querySelector(href).scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
-    });
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-    const fadeInElements = document.querySelectorAll('.fade-in');
-
-    const handleScroll = () => {
-        fadeInElements.forEach(el => {
-            const rect = el.getBoundingClientRect();
-            const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
-            if (isVisible) {
-                el.classList.add('visible');
-            }
-        });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll();
-});
-
-import Services from '@/components/ServicesSection.vue';
+import Services from './ServicesSection.vue';
 
 export default {
   components: {
     Services,
   },
+  data() {
+    return {
+      name: '',
+      message: '',
+      submitted: false
+    };
+  },
+  methods: {
+    submitForm() {
+      this.submitted = true;
+    },
+    resetForm() {
+      this.name = '';
+      this.message = '';
+      this.submitted = false;
+    }
+  },
+  mounted() {
+    // HTML DOM (for scroll smooth behavior and fade-in elements)
+    document.querySelectorAll('.nav-menu a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href.startsWith('#')) {
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const fadeInElements = document.querySelectorAll('.fade-in');
+
+      const handleScroll = () => {
+        fadeInElements.forEach(el => {
+          const rect = el.getBoundingClientRect();
+          const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+          if (isVisible) {
+            el.classList.add('visible');
+          }
+        });
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      handleScroll();
+    });
+  }
 };
 </script>
 
