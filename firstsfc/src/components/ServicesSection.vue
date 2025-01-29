@@ -7,6 +7,10 @@
                <div class="service-grid">
                   <div class="service-item" v-for="(service, index) in services" :key="`service-${index}`">
                      <div class="service-content">
+                        <img v-if="service.icon && service.icon.trim() !== ''"
+                          :src="service.icon"
+                          :alt="service.title || 'Service Icon'"
+                          class="service-icon">
                         <h3 class="service-title">{{ service.title }}</h3>
                      </div>
                      <div class="service-hover-content">
