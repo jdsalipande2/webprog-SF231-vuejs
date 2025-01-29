@@ -202,6 +202,7 @@
             </div>
          </section>
       </div>
+      <Services />
    </div>
 </template>
 
@@ -235,6 +236,14 @@ document.addEventListener("DOMContentLoaded", () => {
     window.addEventListener('scroll', handleScroll);
     handleScroll();
 });
+
+import Services from '@/components/ServicesSection.vue';
+
+export default {
+  components: {
+    Services,
+  },
+};
 </script>
 
 <style scoped>
