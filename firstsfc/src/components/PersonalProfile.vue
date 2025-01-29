@@ -202,7 +202,78 @@
             </div>
          </section>
       </div>
+      <!-- Service Section -->
       <Services />
+      <!-- Portfolio Section -->
+      <div class="fade-in">
+         <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-container">
+               <!-- Portfolio Item 1 -->
+               <div class="portfolio-item">
+                  <img src="./assets/APC%20Ramket%20Website.png" alt="APC Ramket Website" data-description="
+                     <p class='portfolio-title'>APC RAMKET WEBSITE</p>
+                     <p class='portfolio-date'>August - November 2024</p>
+                     <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
+                     <p class='portfolio-description'>An e-commerce platform where we crafted the user interface to ensure a seamless and intuitive shopping experience for buying and selling products made by the APC community.</p>
+                     ">
+               </div>
+               <!-- Portfolio Item 2 -->
+               <div class="portfolio-item">
+                  <img src="./assets/APC%20Ramket%20Mobile%20App.png" alt="APC Ramket Mobile App" data-description="
+                     <p class='portfolio-title'>APC RAMKET MOBILE APP</p>
+                     <p class='portfolio-date'>August - November 2024</p>
+                     <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
+                     <p class='portfolio-description'>A mobile app designed to complement the e-commerce platform, where we focused on creating a user-friendly interface for easy navigation and seamless transactions on-the-go for APC students.</p>
+                     ">
+               </div>
+               <!-- Portfolio Item 3 -->
+               <div class="portfolio-item">
+                  <img src="./assets/dreambuildsla.png" alt="dreambuildsla" data-description="
+                     <p class='portfolio-title'>@dreambuildsla on IG</p>
+                     <p class='portfolio-date'>August - November 2024</p>
+                     <p class='portfolio-description'>Instagram Reels showcasing real estate located in West Los Angeles, CA to captivate audiences and drive inquiries.</p>
+                     ">
+               </div>
+               <!-- Portfolio Item 4 -->
+               <div class="portfolio-item">
+                  <img src="./assets/athletezerous.png" alt="athletezerous" data-description="
+                     <p class='portfolio-title'>@athletezerous on IG</p>
+                     <p class='portfolio-date'>April - June 2024</p>
+                     <p class='portfolio-description'>Instagram Reels enhancing social media presence and audience engagement.</p>
+                     ">
+               </div>
+               <!-- Portfolio Item 5 -->
+               <div class="portfolio-item">
+                  <img src="./assets/Instagram%20Feed%20Posts.png" alt="Instagram Feed Posts" data-description="
+                     <p class='portfolio-title'>Instagram Feed Posts for</p>
+                     <p class='portfolio-course'>LocalPro Renovations</p>
+                     <p class='portfolio-course'>SuppDog</p>
+                     <p class='portfolio-course'>Bayside Endermologie</p>
+                     <p class='portfolio-course'>Vasavi Kumar</p>
+                     <p class='portfolio-course'>Biohackk</p>
+                     ">
+               </div>
+               <!-- Portfolio Item 6 -->
+               <div class="portfolio-item">
+                  <img src="./assets/Marksman.png" alt="Marksman Grade Tracking System" data-description="
+                     <p class='portfolio-title'>MARKSMAN GRADE TRACKING SYSTEM</p>
+                     <p class='portfolio-date'>May - June 2023</p>
+                     <p class='portfolio-course'>APC Senior High School Bootcamp</p>
+                     <p class='portfolio-description'>A web application conceptualized and designed to help students track their grades, with a focus on intuitive user flow and a clean, efficient interface for seamless grade management.</p>
+                     ">
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- Lightbox Modal -->
+      <div id="lightbox" class="lightbox">
+         <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-img" src="" alt="Portfolio Image">
+            <div class="lightbox-description" id="lightbox-description"></div>
+         </div>
+      </div>
    </div>
 </template>
 
