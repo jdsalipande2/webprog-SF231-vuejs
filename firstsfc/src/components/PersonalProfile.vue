@@ -211,7 +211,7 @@
             <div class="portfolio-container">
                <!-- Portfolio Item 1 -->
                <div class="portfolio-item">
-                  <img src="./assets/APC%20Ramket%20Website.png" alt="APC Ramket Website" data-description="
+                  <img src="/assets/APC%20Ramket%20Website.png" alt="APC Ramket Website" data-description="
                      <p class='portfolio-title'>APC RAMKET WEBSITE</p>
                      <p class='portfolio-date'>August - November 2024</p>
                      <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
@@ -220,7 +220,7 @@
                </div>
                <!-- Portfolio Item 2 -->
                <div class="portfolio-item">
-                  <img src="./assets/APC%20Ramket%20Mobile%20App.png" alt="APC Ramket Mobile App" data-description="
+                  <img src="/assets/APC%20Ramket%20Mobile%20App.png" alt="APC Ramket Mobile App" data-description="
                      <p class='portfolio-title'>APC RAMKET MOBILE APP</p>
                      <p class='portfolio-date'>August - November 2024</p>
                      <p class='portfolio-course'>USERDES Course 2nd Year - 1st Term</p>
@@ -229,7 +229,7 @@
                </div>
                <!-- Portfolio Item 3 -->
                <div class="portfolio-item">
-                  <img src="./assets/dreambuildsla.png" alt="dreambuildsla" data-description="
+                  <img src="/assets/dreambuildsla.png" alt="dreambuildsla" data-description="
                      <p class='portfolio-title'>@dreambuildsla on IG</p>
                      <p class='portfolio-date'>August - November 2024</p>
                      <p class='portfolio-description'>Instagram Reels showcasing real estate located in West Los Angeles, CA to captivate audiences and drive inquiries.</p>
@@ -237,7 +237,7 @@
                </div>
                <!-- Portfolio Item 4 -->
                <div class="portfolio-item">
-                  <img src="./assets/athletezerous.png" alt="athletezerous" data-description="
+                  <img src="/assets/athletezerous.png" alt="athletezerous" data-description="
                      <p class='portfolio-title'>@athletezerous on IG</p>
                      <p class='portfolio-date'>April - June 2024</p>
                      <p class='portfolio-description'>Instagram Reels enhancing social media presence and audience engagement.</p>
@@ -245,7 +245,7 @@
                </div>
                <!-- Portfolio Item 5 -->
                <div class="portfolio-item">
-                  <img src="./assets/Instagram%20Feed%20Posts.png" alt="Instagram Feed Posts" data-description="
+                  <img src="/assets/Instagram%20Feed%20Posts.png" alt="Instagram Feed Posts" data-description="
                      <p class='portfolio-title'>Instagram Feed Posts for</p>
                      <p class='portfolio-course'>LocalPro Renovations</p>
                      <p class='portfolio-course'>SuppDog</p>
@@ -256,7 +256,7 @@
                </div>
                <!-- Portfolio Item 6 -->
                <div class="portfolio-item">
-                  <img src="./assets/Marksman.png" alt="Marksman Grade Tracking System" data-description="
+                  <img src="/assets/Marksman.png" alt="Marksman Grade Tracking System" data-description="
                      <p class='portfolio-title'>MARKSMAN GRADE TRACKING SYSTEM</p>
                      <p class='portfolio-date'>May - June 2023</p>
                      <p class='portfolio-course'>APC Senior High School Bootcamp</p>
