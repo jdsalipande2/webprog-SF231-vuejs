@@ -8,10 +8,10 @@
                   <div class="service-item" v-for="(service, index) in services" :key="`service-${index}`">
                      <div class="service-content">
                         <img v-if="service.icon && service.icon.trim() !== ''"
-                           :src="service.icon || 'fallback-icon.png'"
+                           :src="service.icon || 'fallback-icon'"
                            :alt="service.title || 'Service Icon'"
                            class="service-icon"
-                           src="fallback-icon.png"
+                           src="fallback-icon"
                            alt="Service Icon">
                         <h3 class="service-title">{{ service.title }}</h3>
                      </div>
@@ -33,7 +33,7 @@ export default {
         return {
             services: [{
                     title: "GRAPHIC DESIGN",
-                    icon: "./assets/Graphic Design.png",
+                    icon: "./assets/Graphic Design.",
                     details: [
                         "Social Media Posts",
                         "Templates",
