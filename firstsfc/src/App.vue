@@ -1,4 +1,10 @@
 <script setup>
+  import PersonalProfile from './components/PersonalProfile.vue';
+
+  export default {
+  components: {
+    PersonalProfile
+  }
   import { ref, onMounted } from 'vue'
   import { supabase } from './lib/supabaseClient'
 
